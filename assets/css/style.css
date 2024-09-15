@@ -562,6 +562,12 @@ small {
   background-color: #b71c1c !important;
 }
 
+.centered-map {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* .teal {
   background-color: #00695c !important;
 } */
