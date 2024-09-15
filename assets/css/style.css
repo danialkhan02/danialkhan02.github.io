@@ -568,6 +568,13 @@ small {
   margin-right: auto;
 }
 
+#load-more {
+  display: block;
+  margin: 20px auto;
+  background-color: rgba(255, 0, 0, 0.56);
+  color: white;
+}
+
 /* .teal {
   background-color: #00695c !important;
 } */
