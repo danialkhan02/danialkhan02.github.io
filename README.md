@@ -44,6 +44,15 @@ Here is a screenshot of the repository after merging the pull request:
 Here is a screenshot of the deployed homepage:
 ![img.png](submissions_screenshots/activity-4.3.png)
 
+# Activity 5
+The following is a screenshot of the pull request from branch Activity-5 to main:
+![img.png](submissions_screenshots/activity-5.1.png)
+
+Here is a screenshot of the repository after merging the pull request:
+![img.png](submissions_screenshots/activity-5.2.png)
+
+Here is a screenshot of the deployed homepage:
+![img.png](submissions_screenshots/activity-5.3.png)
 
 ## Features 📋
 ⚡️ Fully Responsive\
