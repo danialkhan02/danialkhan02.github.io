@@ -34,6 +34,17 @@ Here is a screenshot of the repository after merging the pull request:
 Here is a screenshot of the deployed homepage:
 ![img.png](activity-3.3/img.png)
 
+# Activity 4
+The following is a screenshot of the pull request from branch Activity-4 to main:
+![img.png](submissions_screenshots/activity-4.1.png)
+
+Here is a screenshot of the repository after merging the pull request:
+![img.png](submissions_screenshots/activity-4.2.png)
+
+Here is a screenshot of the deployed homepage:
+![img.png](submissions_screenshots/activity-4.3.png)
+
+
 ## Features 📋
 ⚡️ Fully Responsive\
 ⚡️ Mobile View Friendly\
