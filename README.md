@@ -1,5 +1,13 @@
-This repo is a clone of
-https://github.com/varadbhogayata/varadbhogayata.github.io
+# ECE 444-2024 PRA 2
+#### Name: Danial Khan
+#### Student Number: 1007088081
+
+
+#### This repository is a clone of the following Github Repository:
+> [Github Repository](https://github.com/varadbhogayata/varadbhogayata.github.io)
+
+# Personal Portfolio ⚡️
+> A clean, beautiful, responsive portfolio template for Software Developers!
 
 # Activity 1
 
@@ -15,3 +23,37 @@ Here is a screenshot of the repository after merging the pull request:
 
 Here is a screenshot of the deployed homepage:
 ![img.png](submissions_screenshots/activity-2.3.png)
+
+# Activity 3
+The following is a screenshot of the pull request from branch Activity-3 to main:
+![img.png](submissions_screenshots/activity-3.1.png)
+
+Here is a screenshot of the repository after merging the pull request:
+![img.png](activity-3.2/img.png)
+
+Here is a screenshot of the deployed homepage:
+![img.png](activity-3.3/img.png)
+
+## Features 📋
+⚡️ Fully Responsive\
+⚡️ Mobile View Friendly\
+⚡️ Valid HTML5 & CSS3\
+⚡️ Typing animation using `Typed.js`\
+⚡️ Easy to modify
+
+## Sections 📚
+✔️ About me\
+✔️ Experience\
+✔️ Projects \
+✔️ Skills \
+✔️ Education\
+✔️ Places Travelled\
+✔️ Contact Info\
+✔️ Resume
+
+To view a live example, **[click here](https://danialkhan02.github.io/)**
+
+## Tools Used 🛠️
+* [<b>GitHub Pages</b>](https://create-react-app.dev/docs/deployment/#github-pages) - To host my static website (HTML, CSS, JS).
+* [<b>Materialize</b>](https://materializecss.com/) - A CSS framework to get Google's Material Design components.
+* [<b>Typed.js</b>](https://mattboldt.com/demos/typed-js/) - JavaScript Library
