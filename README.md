@@ -29,10 +29,10 @@ The following is a screenshot of the pull request from branch Activity-3 to main
 ![img.png](submissions_screenshots/activity-3.1.png)
 
 Here is a screenshot of the repository after merging the pull request:
-![img.png](activity-3.2/img.png)
+![img.png](submissions_screenshots/activity-3.2.png)
 
 Here is a screenshot of the deployed homepage:
-![img.png](activity-3.3/img.png)
+![img.png](submissions_screenshots/activity-3.3.png)
 
 # Activity 4
 The following is a screenshot of the pull request from branch Activity-4 to main:

@@ -13,7 +13,7 @@ const projects = [
     },
     {
         title: "Body Hydration Device",
-        description: "Designed a non-invasive bioelectric device for measuring the hydration of an individual.",
+        description: "Designed a non-invasive bioelectric device.",
         imageUrl: "/assets/img/body-hydration.webp",
         link: "https://github.com/danialkhan02/Body-Hydration-Device"
     },
