@@ -3,30 +3,35 @@ const projects = [
         title: "Airline Fare ML predictions",
         description: "Airline Fare ML predictions",
         imageUrl: "/assets/img/airline-image.jpg",
+        date: "2022-01-01",
         link: "https://github.com/danialkhan02/Airline-Fare-ML-predictions"
     },
     {
         title: "Sneaky Santa",
         description: "A Computer Vision Game",
         imageUrl: "/assets/img/secret-santa.jpg",
+        date: "2022-02-01",
         link: "https://github.com/sulynajimsj/SneakySanta_ComputerVision"
     },
     {
         title: "Body Hydration Device",
         description: "Designed a non-invasive bioelectric device.",
         imageUrl: "/assets/img/body-hydration.webp",
+        date: "2021-03-01",
         link: "https://github.com/danialkhan02/Body-Hydration-Device"
     },
     {
         title: "Reversi Game",
         description: "Play 8x8 Reversi against a computer algorithm.",
         imageUrl: "/assets/img/reversi-game.jpg",
+        date: "2021-03-01",
         link: "https://github.com/danialkhan02/reversi_project"
     },
     {
         title: "StormSim",
         description: "A storm simulator for tornadoes and hurricanes.",
         imageUrl: "/assets/img/storm-simulator.webp",
+        date: "2018-06-01",
         link: "https://github.com/danialkhan02/storm-simulator"
     }
 ];
@@ -59,7 +64,10 @@ function displayProjects(startIndex = 0, endIndex = 3) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    // Display the first three projects initially
+    // Display the first project with the most recent date first
+    projects.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+    // Display the first three projects
     displayProjects(0, 3);
 
     // Add an event listener to the "Load More" button
