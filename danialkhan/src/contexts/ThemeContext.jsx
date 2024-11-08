@@ -1,4 +1,4 @@
-import { createContext, useContext, useState } from 'react';
+import { createContext, useContext, useState, useEffect } from 'react';
 
 const ThemeContext = createContext();
 
@@ -14,11 +14,13 @@ export function ThemeProvider({ children }) {
     setFont(font === 'mono' ? 'sans' : 'mono');
   };
 
+  useEffect(() => {
+    document.documentElement.className = `${theme} font-${font}`;
+  }, [theme, font]);
+
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme, font, toggleFont }}>
-      <div className={`${theme} ${font}`}>
-        {children}
-      </div>
+      {children}
     </ThemeContext.Provider>
   );
 }

@@ -31,3 +31,17 @@ body {
 .font-sans {
   font-family: 'Inter', sans-serif;
 }
+
+html {
+  transition: font-family 0.3s ease;
+}
+
+html.font-mono {
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: -0.025em;
+}
+
+html.font-sans {
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 0;
+}

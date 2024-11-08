@@ -4,14 +4,14 @@ import About from './components/About';
 import RecentWork from './components/RecentWork';
 import Footer from './components/Footer';
 import '@fontsource/jetbrains-mono';
+import '@fontsource/inter';
 import Toolbar from './components/Toolbar';
 import { ThemeProvider } from './contexts/ThemeContext';
-
 
 function App() {
   return (
     <ThemeProvider>
-      <div className="min-h-screen bg-bg-primary text-text-primary font-mono">
+      <div className={`min-h-screen bg-bg-primary text-text-primary`}>
         <Toolbar />
         <main className="max-w-3xl mx-auto px-4 py-24">
           <Header />
