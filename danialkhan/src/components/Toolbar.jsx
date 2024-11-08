@@ -2,10 +2,12 @@ import { useState, useEffect } from 'react';
 import { FiCommand } from 'react-icons/fi';
 import { motion } from 'framer-motion';
 import { useTheme } from '../contexts/ThemeContext';
+import { useWeather } from '../helpers/useWeather';
 
 function Toolbar() {
   const { theme, toggleTheme, font, toggleFont } = useTheme();
   const [time, setTime] = useState('');
+  const weather = useWeather();
   
   useEffect(() => {
     const updateTime = () => {
@@ -53,7 +55,9 @@ function Toolbar() {
           </button>
           <span className={theme === 'dark' ? 'text-gray-600' : 'text-gray-300'}>|</span>
           <span>{time}</span>
-          <span>12°C</span>
+          <span title={weather.city}>
+            {weather.temp ? `${weather.temp}°C` : '12°C'}
+          </span>
           <span>40 / 110</span>
         </div>
       </motion.div>
