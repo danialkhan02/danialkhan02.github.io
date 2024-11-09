@@ -3,6 +3,7 @@ import { FiCommand } from 'react-icons/fi';
 import { motion } from 'framer-motion';
 import { useTheme } from '../contexts/ThemeContext';
 import { useWeather } from '../helpers/useWeather';
+import Tooltip from '../helpers/Tooltip';
 
 function Toolbar() {
   const { theme, toggleTheme, font, toggleFont } = useTheme();
@@ -55,9 +56,9 @@ function Toolbar() {
           </button>
           <span className={theme === 'dark' ? 'text-gray-600' : 'text-gray-300'}>|</span>
           <span>{time}</span>
-          <span title={weather.city}>
-            {weather.temp ? `${weather.temp}°C` : '12°C'}
-          </span>
+          <Tooltip tooltip={weather.city} position="bottom">
+            <span>{weather.temp ? `${weather.temp}°C` : '12°C'}</span>
+          </Tooltip>
           <span>40 / 110</span>
         </div>
       </motion.div>
